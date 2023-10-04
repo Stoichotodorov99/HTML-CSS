@@ -1,0 +1,18 @@
+body {
+    background-color: lightblue;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+header, main, aside, footer {
+    background-color: aquamarine;
+    padding: 2rem;
+    border-radius: 8px;
+
+}
+
+header, footer {
+    width: 100%;
+}
+
