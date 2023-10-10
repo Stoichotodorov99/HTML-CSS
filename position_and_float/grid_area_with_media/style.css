@@ -1,0 +1,48 @@
+header,
+footer {
+    background-color: gray;
+    color: #fff;
+    padding: 1rem;
+
+}
+.sidebar_2 {
+    background-color: lightgray;
+    color: #4B4453;
+    padding: 1rem;
+
+}
+
+main, .sidebar {
+    background-color: #4B4453;
+    color: #fff;
+    padding: 1rem;
+    min-height: 80px;
+
+}
+
+body {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 20px;
+    grid-template-areas: 
+    "header header header"
+    "sidebar content sidebar_2"
+    "footer footer footer";
+}
+
+header {
+    grid-area: header;
+}
+main {
+    grid-area: content;
+}
+.sidebar {
+    grid-area: sidebar;
+
+}
+.sidebar_2 {
+    grid-area: sidebar_2;
+}
+footer {
+    grid-area: footer;
+}

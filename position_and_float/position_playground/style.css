@@ -1,0 +1,30 @@
+section {
+    position: relative;
+}
+
+.lake {
+    background-color: #00C9A7;
+    min-height: 400px;
+}
+
+.mountain {
+    background-color: #C34A36;
+    min-height: 400px;
+}
+
+img {
+
+    display: block;
+    position: absolute;
+    left: 45%;
+}
+
+.lake_img {
+    max-height: 150px;
+    padding: 200px 0px;
+}
+
+.mountain_img {
+    max-height: 370px;
+    padding: 15px 0px;
+}

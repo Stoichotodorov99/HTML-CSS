@@ -1,0 +1,45 @@
+html {
+    font-size: 20px;
+}
+
+div {
+    max-width: 65vw;
+    display: flex;
+    background-color: lightgray;
+}
+
+span {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.week {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.week span {
+    width: 20%;
+    height: 4rem;
+}
+
+.week span:nth-child(1) {
+    width: 100%;
+}
+
+.week span:nth-child(7) {
+    width: 100%;
+}
+
+
+.notes {
+    display: flex;
+    flex-direction: column;
+}
+
+.notes span {
+    flex-grow: 1;
+}

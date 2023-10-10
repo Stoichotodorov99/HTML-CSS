@@ -1,0 +1,18 @@
+div {
+    display: flex;
+    max-width: 15vw;
+    height: 35rem;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1rem;
+    
+}
+
+span {
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    border: 1px solid black;
+    align-content: center;
+    text-align: center;
+    padding: 1rem;
+}
