@@ -1,0 +1,19 @@
+.article,
+.sidebar {
+     display: inline-block;
+}
+
+.article {
+     width: 80%;
+     vertical-align: top;
+
+}
+
+.sidebar {
+     width: 19%;
+     vertical-align: top;
+}
+
+img {
+     width: 30%;
+}
